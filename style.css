@@ -1,27 +1,28 @@
 input[required]{
-  border: red solid 1px;
+ border:2px solid rgb(255, 0, 0); 
 }
 
-input[type= "password"]{
-  background-color: ligth gray;
+input[type="password"]{
+  background-color:lightgray;
 }
 
-a [href^= "https"]{
+
+a[href^="https"]{
   color: green;
 }
 
-a [href$= ".pdf"]{
-  color: pink;
+a[href$=".pdf"]{
+  color: rgb(255, 0, 0);
 }
 
-a [href*= "exemplo"]{
-  font-weigth: bold;
+a[href*="exemplo"]{
+  font-weight:   bolder;
 }
 
-div[class~= "ativo"]{
-  color: ligth blue;
+div[class~="ativo"]{
+  background-color: lightblue;
 }
 
-p[lang|= "pt"]{
-  color: green;
+p[lang|="pt"]{
+  color: rgb(13, 155, 0);
 }
